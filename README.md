@@ -1,1 +1,2 @@
-Practice Assignments that I have completed at Coding Dojo.
+
+This repository contains practice assignments that I have completed at Coding Dojo.
