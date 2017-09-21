@@ -25,8 +25,10 @@ p, a {
 	display: inline;
 }
 #main {
-	/*background-color: rgb(72, 54, 62);*/
 	background: radial-gradient(rgb(100,79,89), rgb(65, 48, 55));
+	background: -o-radial-gradient(rgb(100,79,89), rgb(65, 48, 55));
+	background: -moz-radial-gradient(rgb(100,79,89), rgb(65, 48, 55));
+	background: -webkit-radial-gradient(rgb(100,79,89), rgb(65, 48, 55));
 	width: 100%;
 	padding: 20px;
 }
@@ -40,17 +42,23 @@ p, a {
 	border: 5px solid rgb(184,184,184);
 	width: 100%;
 }
-.header_block {
+h3, h4{
 	background: linear-gradient(rgb(164,164,168), rgb(115,115,132),rgb(164,164,168));
+	background: -o-linear-gradient(rgb(164,164,168), rgb(115,115,132),rgb(164,164,168));
+	background: -moz-linear-gradient(rgb(164,164,168), rgb(115,115,132),rgb(164,164,168));
+	background: -webkit-linear-gradient(rgb(164,164,168), rgb(115,115,132),rgb(164,164,168));
 	color: white;
 	font-family: Arial; 
 	padding: 10px;
 }
-.header_block h4 {
+h4 {
 	font-size: 16px; 
 }
 .text_block1 {
 	background: linear-gradient(to left, rgb(219,204,218), rgb(254,254,254));
+	background: -o-linear-gradient(left, rgb(219,204,218), rgb(254,254,254));
+	background: -moz-linear-gradient(left, rgb(219,204,218), rgb(254,254,254));
+	background: -webkit-linear-gradient(right, rgb(219,204,218), rgb(254,254,254));
 	padding: 10px;
 }
 #about {
@@ -72,18 +80,23 @@ p, a {
 	margin: 10px;
 	width: 30.9%;
 	vertical-align: top;
+	background: linear-gradient(to left, rgb(219,204,218), rgb(254,254,254));
+	background: -o-linear-gradient(left, rgb(219,204,218), rgb(254,254,254));
+	background: -moz-linear-gradient(left, rgb(219,204,218), rgb(254,254,254));
+	background: -webkit-linear-gradient(right, rgb(219,204,218), rgb(254,254,254));
 }
 .blocks img {
-	width: 100%
-}
-.text_block2 {
-	background: linear-gradient(to left, rgb(219,204,218), rgb(254,254,254));
-	padding: 10px;
-	height: 150px;
+	width: 100%; 
 }
 .blocks p {
 	font-size: 14px;
 	text-align: justify;
+	padding: 10px;
+	height: 150px;
+}
+.text_block2 {
+	padding: 10px;
+	height: 150px;
 }
 .text_block2 img {
 	width: 17%;
