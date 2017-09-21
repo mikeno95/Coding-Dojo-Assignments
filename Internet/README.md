@@ -1,0 +1,1 @@
+The purpose of this assignment is to create a copy of the given web page using HTML and CSS. 
