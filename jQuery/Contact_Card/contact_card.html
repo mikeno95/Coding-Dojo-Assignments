@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8">
+	<meta name="description" content="Contact Card">
+	<title>Contact Card Assignment</title>
+	<link rel="stylesheet" type="text/css" href="contact_card.css">
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#contact_form").on("submit", function(){
+				var first = $("input[name='first_name']").val();
+				var last = $("input[name='last_name']").val();
+				var desc = $("textarea").val();
+
+				$("input[type='text']").val("");
+				$("textarea").val("");
+
+				$('#contact_box').append("<div class=card><h2>"+first+" "+last+"</h2>"+"<p style='display: none'>"+desc+"</p>"+"</div>");
+
+				$('.card').click(function(){
+					$(this).children().toggle();
+				});
+				return false;
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="contact_info">
+		<h1>Contact Card</h1>
+		<form id='contact_form' action="">
+			First Name: <input type="text" name="first_name" value="">
+			Last Name: <input type="text" name="last_name" value="">
+			Description: <textarea></textarea>
+			<input type="submit" value="Add Contact">
+		</form>
+	</div>
+	<div id="contact_box">
+		
+	</div>
+</body>
+</html>

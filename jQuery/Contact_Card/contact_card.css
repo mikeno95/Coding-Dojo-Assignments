@@ -1,0 +1,49 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+h1, form , h2 , p {
+	font-family: helvetica;
+}
+h1 {
+	font-size: 24px;
+	margin: 20px 0px;
+}
+h2 {
+	font-size: 30px;
+	margin: 50px 0px;
+}
+#contact_info {
+	width: 240px;
+	height: 400px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px;
+}
+#contact_box {
+	width: 300px;
+	height: 400px;
+	display: inline-block;
+	overflow-y: scroll;
+	border: 1px solid lightgray;
+	margin-left: 20px;
+
+}
+input {
+	margin: 10px 0px;
+}
+input[name="last_name"] {
+	margin-bottom: 40px;
+}
+textarea {
+	width: 250px;
+	height: 100px;
+}
+.card {
+	width: 250px;
+	height: 150px;
+	margin: 10px; 
+	border: 1px solid gray;
+	text-align: center;
+	padding: 10px;
+}
