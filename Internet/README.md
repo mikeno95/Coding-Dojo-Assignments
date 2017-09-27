@@ -1,2 +1,0 @@
-# Internet
-This folder contains my work for the "Internet" assignment at Coding Dojo. The purpose of this assignment was to copy a web page using the given image using HTML and CSS. This folder has my HTML and CSS code, and the image that was given. The goal was to practice the amount of times using unnecessary divisions in the HTML.
