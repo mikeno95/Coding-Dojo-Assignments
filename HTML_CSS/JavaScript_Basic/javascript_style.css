@@ -1,0 +1,74 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	color: rgb(110, 222, 228);
+}
+span {
+	color:rgb(124, 146, 255);
+}
+h1, p, ul {
+	color: rgb(195, 215, 235);
+}
+#wrapper {
+	width: 970px;
+	background-color: rgb(29, 52, 92);
+	margin: 0px auto;
+	padding: 10px;
+}
+.header {
+	background-color: rgb(204, 50, 58);
+	border-radius: 10px; 
+	padding: 20px;
+	font-weight: bold;
+}
+.header h1 {
+	font-size: 36px; 
+}
+.navigation {
+	background-color: rgb(46, 125, 139); 
+	margin-top: 15px; 
+	border-radius: 15px;
+	width: 20%;
+	padding: 20px;
+	vertical-align: top; 
+	display: inline-block;
+}
+.navigation ul.a {
+	margin-left: 20px;
+}
+.navigation ul.b {
+	margin-left: 40px;
+}
+.main_content {
+	background-color: rgb(14, 24, 33);
+	width: 70%;
+	border-radius: 15px; 
+	display: inline-block;
+	margin-top: 15px; 
+	margin-left: 20px;
+	padding: 15px; 
+}
+.main_content h1 {
+	font-size: 24px;
+	padding-top: 10px; 
+}
+.main_content p {
+	padding-top: 10px; 
+}
+.main_content ul.a {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.main_content ul.a li {
+	margin-top: 10px;
+}
+
+.bottom {
+	background-color: rgb(94, 102, 114);
+	border-radius: 15px; 
+	margin-top: 15px; 
+	padding: 15px; 
+}
+

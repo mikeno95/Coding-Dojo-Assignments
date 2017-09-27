@@ -1,0 +1,2 @@
+# JavaScript Basic
+The purpose of this assignment was to break down the image provided and create it into a web page using HTML and CSS. The goal was to practice using display: inline-block/inline/block for divs.  
