@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Dojo Arena">
+	<title>Dojo Arena Assignment</title>
+	<link rel="stylesheet" type="text/css" href="dojo_arena.css">
+	<script src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+	<script type="text/javascript">
+		function setImageJPG(img) {
+			var image = "Images/"+$(img).text() + ".jpg";
+			return image;
+		}
+		$(document).ready(function(){
+			$(".arena").hover(function(){
+				$("#dojo").css("background-image", "url("+setImageJPG(this)+")");
+				$(this).css("background-color","orange");
+
+			}, function(){
+				$("#dojo").css("background-image", "");
+				$(this).css("background-color","WhiteSmoke");
+			});
+			$(".arena").click(function(){
+				$("#dojo").css("background-image", "url("+setImageJPG(this)+")");
+				$("h1").text("Select Players");
+				$(".arena").remove();
+				var select_player = $("<select class='player1'><option value='1'>Player 1</option><option value='donny'>Donny</option><option value='leo'>Leo</option><option value='mikey'>Mikey</option><option value='raphael'>Raphael</option></select><select class='player2'><option value='2'>Player 2</option><option value='donny'>Donny</option><option value='leo'>Leo</option><option value='mikey'>Mikey</option><option value='raphael'>Raphael</option></select>");
+				$("#select_arena").append(select_player);
+				select_player.on("change", function(){
+					var player1_img = "";
+					var player2_img = "";
+					$( ".player1 option:selected" ).each(function() {
+				      player1_img = "<img src='Images/"+$(this).text().toLowerCase() + ".png'>";
+				    })
+				    $( ".player2 option:selected" ).each(function() {
+				      player2_img = "<img src='Images/"+$(this).text().toLowerCase() + ".png'>";
+				    })
+				    $("#player1").html(player1_img);
+				    $("#player2").html(player2_img);
+				}).trigger("change");
+			});
+
+		});
+	</script>
+</head>
+<body>
+	<div id="dojo">
+		<div id="select_arena">
+			<h1>Select Arena</h1>
+			<div class="arena">beach</div>
+			<div class="arena">earth</div>
+			<div class="arena">dojo</div>
+			<div class="arena">forest</div>
+			<div class="arena">matrix</div>
+			<div class="arena">snow</div>
+		</div>
+		<div class="player_box" id="player1"></div>
+		<div class="player_box" id="player2"></div>
+	</div>
+
+</body>
+</html>
