@@ -16,12 +16,15 @@
 				$("input[type='text']").val("");
 				$("textarea").val("");
 
-				$('#contact_box').append("<div class=card><h2>"+first+" "+last+"</h2>"+"<p style='display: none'>"+desc+"</p>"+"</div>");
+				$('#contact_box').append("<div class=card><h2>"+first+" "+last+"</h2>"+"<p>Click to see description</p>"+"<p style='display: none'>"+desc+"</p>"+"</div>");
 
-				$('.card').click(function(){
-					$(this).children().toggle();
-				});
+				// $('.card').click(function(){
+				// 	$(this).children().toggle();
+				// });
 				return false;
+			});
+			$(document).on("click", ".card", function(){
+				$(this).children().toggle();
 			});
 		});
 	</script>
