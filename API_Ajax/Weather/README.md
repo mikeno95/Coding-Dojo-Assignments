@@ -1,0 +1,2 @@
+# Weather Forecast App 
+The purpose of this assignment was to create a web page that allows the user to search the weather of a specific location, using HTML, CSS, jQuery, and pulling information from the Open Weather Map API using Ajax. Once the user submits the form, the page will display the city's name and temperature in Celcius without page refresh. 

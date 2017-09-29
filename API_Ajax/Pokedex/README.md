@@ -1,2 +1,2 @@
 # Pokedex Assignment
-The purpose of this assignment was to create my own Pokedex for the first 150 Pokemons using HTML, CSS, jQuery, and pulling information from the Pokemon API using Ajax. When the user clicks on the picture of the Pokemon on the left side of the page, then information of that selected Pokemon will show up on the Pokedex. 
+The purpose of this assignment was to create my own Pokedex for the first 150 Pokemons using HTML, CSS, jQuery, and pulling information from the Pokemon API using Ajax. When the user clicks on the picture of the Pokemon on the left side of the page, then information of that selected Pokemon will show up on the Pokedex.
