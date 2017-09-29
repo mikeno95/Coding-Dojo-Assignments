@@ -1,0 +1,70 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+h1, h4, p , ul , h2 , h3 {
+	font-family: helvetica; 
+
+}
+#wrapper {
+	width: 1400px;
+	background-color: lightgray;
+}
+#pokemon {
+	display: inline-block;
+	vertical-align: top;
+	width: 600px;
+}
+#pokedex {
+	width: 700px;
+	height: 500px;
+	background-image: url('http://www.geocities.ws/pokemontours2/indexes/objects/pokedex1.gif');
+	background-size: cover;
+	display: inline-block;
+}
+ul {
+	list-style-position: inside;
+	margin-left: 25px;
+}
+h4 {
+	margin-top: 10px;
+}
+h1 {
+	margin-left: 20px;
+}
+h2 {
+	display: inline-block;
+	padding-top: 4px;
+	margin-left: 80px;
+	font-size: 16px;
+}
+h3 {
+	font-size: 11px;
+	vertical-align: top;
+	margin: 0px;
+}
+p {
+	font-size: 12px;
+	display: inline-block;
+	margin: 0px 10px;
+	font-style: italic;
+}
+#pokedex_image {
+	margin: 140px 0px 0px 50px;
+	width: 248px;
+	height: 150px;
+	display: inline-block;
+	text-align: center;
+}
+#poke_info {
+	margin: 155px 0px 0px 120px;
+	width: 220px;
+	height: 80px;
+	display: inline-block;
+	vertical-align: top;
+	padding: 8px;
+}
+#pokedex_image img {
+	vertical-align: top;
+	width: 180px;
+}
