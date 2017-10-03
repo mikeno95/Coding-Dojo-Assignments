@@ -1,0 +1,99 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-color: black;
+	width: 800px;
+	text-align: center;
+}
+#endDisplay, #score , #life {
+	font-family: "Courier New";
+}
+#pacman, #redGhost, #blueGhost, #pinkGhost, #orangeGhost, .cherry , 
+#brown, #dancer, #movingBlue, #movingPink {
+	background-size: contain;
+}
+#pacman, #redGhost, #blueGhost , #pinkGhost, #orangeGhost, 
+#brown, #dancer, #movingBlue, #movingPink {
+	position: absolute;
+}
+#pacman, .brick, .empty , .cherry , #redGhost, #blueGhost, #pinkGhost, #orangeGhost, 
+#brown, #dancer, #movingBlue, #movingPink {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+#endDisplay {
+	position: absolute; 
+	left: 90px; 
+	top: 120px;
+	width: 260px;
+	border: 10px solid yellow; 
+	margin: 10px;
+	font-size: 48px;
+	color: yellow;
+	padding: 30px;
+	font-weight: bold;
+	display: none;
+
+}
+.brick {
+	background-color: blue;
+
+}
+.dot {
+	border-radius: 50%;
+	background-color: white;
+	width: 5px;
+	height: 5px;
+	display: inline-block;
+}
+.empty {
+	background-color: transparent;
+	text-align: center; 
+}
+.cherry {
+	background-image: url("cherry.png");
+}
+#pacman {
+	background-image: url('pacman.gif');
+}
+#score, #life {
+	border: 1px solid white;
+	width: 60px;
+	height: 30px;
+	color: white;
+	padding: 7px;
+	display: inline-block;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 50px;
+	vertical-align: top;
+}
+#redGhost {
+	background-image: url("red_ghost.png");
+}
+#blueGhost {
+	background-image: url("blue_ghost.png");
+}
+#pinkGhost {
+	background-image: url("pink_ghost.png");
+}
+#orangeGhost {
+	background-image: url("orange_ghost.png");
+}
+#brown {
+	background-image: url("brown.gif");
+}
+#dancer {
+	background-image: url("dancer.gif");
+
+}
+#movingBlue {
+	background-image: url("movingBlue.gif");
+}
+#movingPink {
+	background-image: url("movingPink.gif");
+}
